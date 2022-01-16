@@ -5,6 +5,22 @@ Inspired by the current lack of existing emoji embedding models and their limite
 
 As these embeddings were also trained on keywords, the subsequent embeddings are durable and can be used in different natural language tasks such as emotion, cyberbully and sarcasm detection successfully. The current embedding file contains all emojis as of [v13.1](https://unicode.org/emoji/charts/full-emoji-list.html) from Unicode.org (1816 emojis). The emoji embedding file will be updated when new emojis are added.
 
+```python
+@InProceedings{Emojional2021,
+author="Barry, Elena
+and Jameel, Shoaib
+and Raza, Haider",
+title="Emojional: Emoji Embeddings",
+booktitle="Advances in Computational Intelligence Systems",
+year="2022",
+publisher="Springer International Publishing",
+pages="312--324",,
+isbn="978-3-030-87094-2"
+}
+
+
+```
+
 ## Creating the Dataset
 
 We scraped the key emotive words from the online emoji dictionaries [Emojipedia](https://emojipedia.org) and [Emojis.Wiki](https://emojis.wiki) and created a new dataset. [This](https://github.com/elenabarry/emojional/blob/main/Helpful%20Scripts/python_scraping.ipynb.zip) is the script we used to scrape each emoji description from these websites. By using a [list](https://github.com/elenabarry/emojional/blob/main/Data/key_words_vocab.xlsx) of uniquely emotive, sensory and other keywords we were able to use the Python library Beautiful Soup to [scrape](https://github.com/elenabarry/emojional/blob/main/Helpful%20Scripts/pulling_emotive_words.ipynb) any matched words for each emoji description. 
