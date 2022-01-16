@@ -7,9 +7,7 @@ As these embeddings were also trained on keywords, the subsequent embeddings are
 
 ```python
 @InProceedings{Emojional2021,
-author="Barry, Elena
-and Jameel, Shoaib
-and Raza, Haider",
+author="Barry, Elena; Jameel, Shoaib; and Raza, Haider",
 title="Emojional: Emoji Embeddings",
 booktitle="Advances in Computational Intelligence Systems",
 year="2022",
